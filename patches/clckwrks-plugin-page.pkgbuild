@@ -1,0 +1,13 @@
+Index: haskell-happstack/haskell-clckwrks-plugin-page/PKGBUILD
+===================================================================
+--- haskell-happstack.orig/haskell-clckwrks-plugin-page/PKGBUILD
++++ haskell-happstack/haskell-clckwrks-plugin-page/PKGBUILD
+@@ -10,7 +10,7 @@ pkgdesc="support for CMS/Blogging in clc
+ url="http://www.clckwrks.com/"
+ license=("BSD3")
+ arch=('i686' 'x86_64')
+-makedepends=()
++makedepends=("haskell-hsx2hs")
+ depends=("ghc=7.6.3-1"
+          "haskell-acid-state=0.11.4-1"
+          "haskell-aeson=0.6.1.0-13"

@@ -1,0 +1,14 @@
+Index: haskell-happstack/haskell-happstack-server-tls/src/happstack-server-tls-7.0.4/happstack-server-tls.cabal
+===================================================================
+--- haskell-happstack.orig/haskell-happstack-server-tls/src/happstack-server-tls-7.0.4/happstack-server-tls.cabal
++++ haskell-happstack/haskell-happstack-server-tls/src/happstack-server-tls-7.0.4/happstack-server-tls.cabal
+@@ -28,9 +28,6 @@ Library
+                        network               >= 2.3 && < 2.5,
+                        sendfile              == 0.7.*,
+                        time                  >= 1.2 && < 1.5
+-    Extra-Libraries:   ssl
+-    if !os(darwin)
+-        Extra-Libraries: cryptopp
+ 
+     if !os(windows)
+        Build-Depends:  unix

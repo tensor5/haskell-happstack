@@ -1,0 +1,13 @@
+Index: haskell-happstack/haskell-magic/PKGBUILD
+===================================================================
+--- haskell-happstack.orig/haskell-magic/PKGBUILD
++++ haskell-happstack/haskell-magic/PKGBUILD
+@@ -11,7 +11,7 @@ url="http://hackage.haskell.org/package/
+ license=("BSD3")
+ arch=('i686' 'x86_64')
+ makedepends=()
+-depends=("ghc=7.6.3-1" "magic")
++depends=("ghc=7.6.3-1" "file")
+ options=('strip')
+ source=("http://hackage.haskell.org/packages/archive/${_hkgname}/${pkgver}/${_hkgname}-${pkgver}.tar.gz")
+ install="${pkgname}.install"
