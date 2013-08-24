@@ -15,13 +15,18 @@ it, the [haskell-core] repository must be enabled in `/etc/pacman.conf`:
     [haskell-happstack]
     Server = ftp://noaxiom.org/$repo/$arch
 
+Add and sign the PGP key:
+
+    # pacman-key -r B0544167
+    # pacman-key --lsign-key B0544167
+
 To build and maintain the repository we use
 [cblrepo](http://hackage.haskell.org/package/cblrepo) and the
 [`makeahpkg`](makeahpkg) script taken from
 [habs](https://github.com/archhaskell/habs):
 
-    cblrepo pkgbuild $(<buildorder)
-    ./makeahpkg -c $(<buildorder)
+    # cblrepo pkgbuild $(<buildorder)
+    # ./makeahpkg -c $(<buildorder)
 
 Check [habs](https://github.com/archhaskell/habs) for more details on
 [`makeahpkg`](makeahpkg) usage.
