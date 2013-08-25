@@ -10,4 +10,22 @@ Index: haskell-happstack/haskell-clckwrks/PKGBUILD
 +makedepends=("haskell-hsx2hs")
  depends=("ghc=7.6.3-1"
           "haskell-acid-state=0.11.4-1"
-          "haskell-aeson=0.6.1.0-13"
+          "haskell-aeson=0.6.1.0-15"
+@@ -20,6 +20,7 @@ depends=("ghc=7.6.3-1"
+          "haskell-happstack-hsp=7.2.2-5"
+          "haskell-happstack-server=7.3.0-5"
+          "haskell-happstack-server-tls=7.0.4-5"
++         "haskell-hscolour"
+          "haskell-hsp=0.9.2-1"
+          "haskell-hsx-jmacro=7.3.0-6"
+          "haskell-ixset=1.0.5-4"
+@@ -43,7 +44,8 @@ depends=("ghc=7.6.3-1"
+          "haskell-web-routes-happstack=0.23.5-5"
+          "haskell-web-routes-hsp=0.24.1-1"
+          "haskell-web-routes-th=0.22.1-1"
+-         "haskell-xss-sanitize=0.3.4-1")
++         "haskell-xss-sanitize=0.3.4-1"
++         "markdown")
+ options=('strip')
+ source=("http://hackage.haskell.org/packages/archive/${_hkgname}/${pkgver}/${_hkgname}-${pkgver}.tar.gz")
+ install="${pkgname}.install"
