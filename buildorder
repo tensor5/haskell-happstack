@@ -56,9 +56,12 @@ crypto-pubkey
 sendfile
 shakespeare
 hamlet
+skein
+clientsession
 socks
 threads
 happstack-server
+happstack-clientsession
 happstack-hamlet
 happstack-hsp
 hsx-jmacro
