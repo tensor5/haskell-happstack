@@ -14,7 +14,7 @@ Index: haskell-happstack/haskell-clckwrks/PKGBUILD
 @@ -20,6 +20,7 @@ depends=("ghc=7.6.3-1"
           "haskell-happstack-hsp=7.2.2-6"
           "haskell-happstack-server=7.3.0-6"
-          "haskell-happstack-server-tls=7.0.4-6"
+          "haskell-happstack-server-tls=7.0.4-7"
 +         "haskell-hscolour"
           "haskell-hsp=0.9.2-1"
           "haskell-hsx-jmacro=7.3.0-7"
