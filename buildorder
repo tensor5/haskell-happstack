@@ -11,6 +11,7 @@ cookie
 crypto-pubkey-types
 cryptohash-cryptoapi
 css-text
+exceptions
 failure
 feed
 filestore
@@ -29,10 +30,6 @@ pem
 certificate
 pipes
 pipes-concurrency
-pipes-parse
-pipes-attoparsec
-pipes-aeson
-pipes-binary
 pipes-safe
 pipes-network
 profunctors
@@ -80,6 +77,11 @@ groupoids
 distributive
 comonad-transformers
 comonads-fd
+free
+pipes-parse
+pipes-attoparsec
+pipes-aeson
+pipes-binary
 semigroupoid-extras
 profunctor-extras
 lens
