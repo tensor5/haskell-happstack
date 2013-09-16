@@ -10,7 +10,7 @@ Index: haskell-happstack/haskell-gitit/PKGBUILD
           "haskell-happstack-server=7.3.0-6"
           "haskell-highlighting-kate=0.5.5-1"
           "haskell-hslogger=1.2.3-1"
-@@ -41,7 +42,11 @@ depends=("ghc=7.6.3-1"
+@@ -41,7 +42,12 @@ depends=("ghc=7.6.3-1"
           "haskell-xhtml=3000.2.1-27"
           "haskell-xml=1.3.13-4"
           "haskell-xss-sanitize=0.3.4-1"
@@ -19,7 +19,8 @@ Index: haskell-happstack/haskell-gitit/PKGBUILD
 +         "mime-types")
 +optdepends=('git: Git filestore support'
 +            'darcs: Darcs filestore support'
-+            'mercurial: Mercurial filestore support')
++            'mercurial: Mercurial filestore support'
++            'postfix: notification emails support')
  options=('strip')
  source=("http://hackage.haskell.org/packages/archive/${_hkgname}/${pkgver}/${_hkgname}-${pkgver}.tar.gz"
          "cabal.patch")
