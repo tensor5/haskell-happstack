@@ -11,6 +11,7 @@ cookie
 crypto-pubkey-types
 cryptohash-cryptoapi
 css-text
+email-validate
 exceptions
 failure
 feed
