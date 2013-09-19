@@ -23,6 +23,7 @@ hsp
 irc
 ircbot
 magic
+mime-mail
 mime-types
 network-simple
 parseargs
