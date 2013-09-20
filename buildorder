@@ -84,6 +84,7 @@ pipes-parse
 pipes-attoparsec
 pipes-aeson
 pipes-binary
+pipes-bytestring
 semigroupoid-extras
 profunctor-extras
 lens
