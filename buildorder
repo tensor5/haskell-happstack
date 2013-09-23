@@ -89,6 +89,7 @@ semigroupoid-extras
 profunctor-extras
 lens
 data-store
+tables
 url
 web-plugins
 web-routes
