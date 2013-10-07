@@ -1,0 +1,13 @@
+Index: haskell-happstack/clckwrks-plugin-page.cabal
+===================================================================
+--- haskell-happstack.orig/clckwrks-plugin-page.cabal
++++ haskell-happstack/clckwrks-plugin-page.cabal
+@@ -58,7 +58,7 @@ library
+                        reform-happstack       == 0.2.*,
+                        reform-hsp             == 0.2.*,
+                        safecopy               == 0.8.*,
+-                       tagsoup                == 0.12.*,
++                       tagsoup                >= 0.12 && < 0.14,
+                        text                   == 0.11.*,
+                        time                   == 1.4.*,
+                        template-haskell       >= 2.7 && <= 2.9,
