@@ -71,6 +71,8 @@ happstack-server-tls
 reform-happstack
 tls
 tls-extra
+network-simple-tls
+pipes-network-tls
 transformers-compat
 contravariant
 semigroupoids
