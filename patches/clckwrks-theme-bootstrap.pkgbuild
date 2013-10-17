@@ -9,5 +9,5 @@ Index: haskell-happstack/haskell-clckwrks-theme-bootstrap/PKGBUILD
 -makedepends=()
 +makedepends=("haskell-hsx2hs")
  depends=("ghc=7.6.3-1"
-          "haskell-clckwrks=0.19.0-6"
+          "haskell-clckwrks=0.19.0-7"
           "haskell-hsp=0.9.2-1"
