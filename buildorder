@@ -102,6 +102,8 @@ happstack-foundation
 xml-conduit
 xss-sanitize
 gitit
+yaml
+stylish-haskell
 zlib-bindings
 pipes-zlib
 zlib-conduit
