@@ -58,6 +58,7 @@ hamlet
 skein
 clientsession
 socks
+stylish-haskell
 threads
 happstack-server
 happstack-clientsession
@@ -102,8 +103,6 @@ happstack-foundation
 xml-conduit
 xss-sanitize
 gitit
-yaml
-stylish-haskell
 zlib-bindings
 pipes-zlib
 zlib-conduit
