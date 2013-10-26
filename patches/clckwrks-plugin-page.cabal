@@ -2,7 +2,7 @@ Index: haskell-happstack/clckwrks-plugin-page.cabal
 ===================================================================
 --- haskell-happstack.orig/clckwrks-plugin-page.cabal
 +++ haskell-happstack/clckwrks-plugin-page.cabal
-@@ -58,7 +58,7 @@ library
+@@ -58,11 +58,11 @@ library
                         reform-happstack       == 0.2.*,
                         reform-hsp             == 0.2.*,
                         safecopy               == 0.8.*,
@@ -11,3 +11,8 @@ Index: haskell-happstack/clckwrks-plugin-page.cabal
                         text                   == 0.11.*,
                         time                   == 1.4.*,
                         template-haskell       >= 2.7 && <= 2.9,
+-                       uuid                   == 1.2.*,
++                       uuid                   >= 1.2 && < 1.4,
+                        utf8-string            == 0.3.*,
+                        web-plugins            == 0.2.*,
+                        web-routes             == 0.27.*,
