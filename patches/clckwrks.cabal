@@ -2,12 +2,8 @@ Index: haskell-happstack/clckwrks.cabal
 ===================================================================
 --- haskell-happstack.orig/clckwrks.cabal
 +++ haskell-happstack/clckwrks.cabal
-@@ -92,10 +92,10 @@ Library
-      reform-hsp                   >= 0.2 && < 0.3,
-      safecopy                     >= 0.6,
-      stm                          >= 2.2 && <2.5,
--     tagsoup                      == 0.12.*,
-+     tagsoup                      >= 0.12 && < 0.14,
+@@ -95,7 +95,7 @@ Library
+      tagsoup                      >= 0.12 && < 0.14,
       text                         == 0.11.*,
       time                         >= 1.2 && <1.5,
 -     uuid                         == 1.2.*,
