@@ -9,6 +9,6 @@ Index: haskell-happstack/haskell-hsopenssl/PKGBUILD
 -         "crypto"
 -         "ssl")
 +         "openssl")
- options=('strip')
+ options=('strip' 'staticlibs')
  source=("http://hackage.haskell.org/packages/archive/${_hkgname}/${pkgver}/${_hkgname}-${pkgver}.tar.gz")
  install="${pkgname}.install"
