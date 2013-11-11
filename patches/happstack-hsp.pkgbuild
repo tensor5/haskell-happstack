@@ -9,5 +9,5 @@ Index: haskell-happstack/haskell-happstack-hsp/PKGBUILD
 -makedepends=()
 +makedepends=("haskell-hsx2hs")
  depends=("ghc=7.6.3-1"
-          "haskell-happstack-server=7.3.1-4"
+          "haskell-happstack-server=7.3.1-5"
           "haskell-harp=0.4-1"
