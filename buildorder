@@ -41,6 +41,7 @@ reform-blaze
 reform-hsp
 safecopy
 acid-state
+acid-state-tls
 ixset
 securemem
 crypto-cipher-types
