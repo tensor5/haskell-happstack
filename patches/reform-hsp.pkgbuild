@@ -10,4 +10,4 @@ Index: haskell-happstack/haskell-reform-hsp/PKGBUILD
 +makedepends=("haskell-hsx2hs")
  depends=("ghc=7.6.3-1"
           "haskell-hsp=0.10.0-1"
-          "haskell-reform=0.2.0-1"
+          "haskell-reform=0.2.1-1"
