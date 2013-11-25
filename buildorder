@@ -84,8 +84,8 @@ free
 pipes-parse
 pipes-attoparsec
 pipes-aeson
-pipes-binary
 pipes-bytestring
+pipes-binary
 lens
 url
 web-plugins
