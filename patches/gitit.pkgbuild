@@ -3,17 +3,17 @@ Index: haskell-happstack/haskell-gitit/PKGBUILD
 --- haskell-happstack.orig/haskell-gitit/PKGBUILD
 +++ haskell-happstack/haskell-gitit/PKGBUILD
 @@ -21,6 +21,7 @@ depends=("ghc=7.6.3-1"
-          "haskell-cgi=3001.1.8.4-2"
+          "haskell-cgi=3001.1.8.4-3"
           "haskell-feed=0.3.9.2-1"
           "haskell-filestore=0.6.0.1-1"
 +         "haskell-ghc-paths=0.1.0.9-3"
-          "haskell-happstack-server=7.3.1-5"
-          "haskell-highlighting-kate=0.5.5-2"
-          "haskell-hslogger=1.2.3-2"
+          "haskell-happstack-server=7.3.1-7"
+          "haskell-highlighting-kate=0.5.5.1-2"
+          "haskell-hslogger=1.2.3-3"
 @@ -41,7 +42,12 @@ depends=("ghc=7.6.3-1"
           "haskell-xhtml=3000.2.1-27"
           "haskell-xml=1.3.13-4"
-          "haskell-xss-sanitize=0.3.4-3"
+          "haskell-xss-sanitize=0.3.4-4"
 -         "haskell-zlib=0.5.4.1-2")
 +         "haskell-zlib=0.5.4.1-2"
 +         "mime-types")
