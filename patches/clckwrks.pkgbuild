@@ -9,22 +9,22 @@ Index: haskell-happstack/haskell-clckwrks/PKGBUILD
 -makedepends=()
 +makedepends=("haskell-hsx2hs")
  depends=("ghc=7.6.3-1"
-          "haskell-acid-state=0.12.1-3"
-          "haskell-aeson=0.6.2.1-3"
+          "haskell-acid-state=0.12.1-4"
+          "haskell-aeson=0.6.2.1-4"
 @@ -20,6 +20,7 @@ depends=("ghc=7.6.3-1"
-          "haskell-happstack-hsp=7.2.3-3"
-          "haskell-happstack-server=7.3.1-7"
-          "haskell-happstack-server-tls=7.0.4-16"
+          "haskell-happstack-hsp=7.2.3-4"
+          "haskell-happstack-server=7.3.1-8"
+          "haskell-happstack-server-tls=7.0.4-17"
 +         "haskell-hscolour"
           "haskell-hsp=0.10.0-1"
-          "haskell-hsx-jmacro=7.3.1-3"
+          "haskell-hsx-jmacro=7.3.1-4"
           "haskell-ixset=1.0.5-6"
 @@ -43,7 +44,8 @@ depends=("ghc=7.6.3-1"
-          "haskell-web-routes-happstack=0.23.5-15"
-          "haskell-web-routes-hsp=0.24.2-3"
-          "haskell-web-routes-th=0.22.1-7"
--         "haskell-xss-sanitize=0.3.4-4")
-+         "haskell-xss-sanitize=0.3.4-4"
+          "haskell-web-routes-happstack=0.23.5-16"
+          "haskell-web-routes-hsp=0.24.2-4"
+          "haskell-web-routes-th=0.22.1-8"
+-         "haskell-xss-sanitize=0.3.4-5")
++         "haskell-xss-sanitize=0.3.4-5"
 +         "markdown")
  options=('strip' 'staticlibs')
  source=("http://hackage.haskell.org/packages/archive/${_hkgname}/${pkgver}/${_hkgname}-${pkgver}.tar.gz")
