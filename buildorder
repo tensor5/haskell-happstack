@@ -71,6 +71,7 @@ happstack-server-tls
 reform-happstack
 tls
 tls-extra
+connection
 network-simple-tls
 pipes-network-tls
 transformers-compat
@@ -98,8 +99,9 @@ xml-conduit
 xss-sanitize
 gitit
 zlib-bindings
-pipes-zlib
-zlib-conduit
+http-client
+http-client-conduit
+http-client-tls
 http-conduit
 authenticate
 fb
@@ -111,3 +113,5 @@ clckwrks-plugin-media
 clckwrks-theme-bootstrap
 clckwrks-plugin-page
 clckwrks-plugin-bugs
+pipes-zlib
+zlib-conduit

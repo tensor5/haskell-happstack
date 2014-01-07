@@ -9,23 +9,22 @@ Index: haskell-happstack/haskell-clckwrks/PKGBUILD
 -makedepends=()
 +makedepends=("haskell-hsx2hs")
  depends=("ghc=7.6.3-1"
-          "haskell-acid-state=0.12.1-4"
+          "haskell-acid-state=0.12.1-5"
           "haskell-aeson=0.6.2.1-5"
 @@ -20,6 +20,7 @@ depends=("ghc=7.6.3-1"
-          "haskell-happstack-hsp=7.2.4-1"
-          "haskell-happstack-server=7.3.2-1"
-          "haskell-happstack-server-tls=7.1.0-2"
+          "haskell-happstack-hsp=7.2.4-2"
+          "haskell-happstack-server=7.3.2-2"
+          "haskell-happstack-server-tls=7.1.0-3"
 +         "haskell-hscolour"
           "haskell-hsp=0.10.0-1"
-          "haskell-hsx-jmacro=7.3.2-1"
+          "haskell-hsx-jmacro=7.3.2-2"
           "haskell-ixset=1.0.5-6"
-@@ -44,7 +45,8 @@ depends=("ghc=7.6.3-1"
+@@ -44,7 +45,7 @@ depends=("ghc=7.6.3-1"
           "haskell-web-routes-hsp=0.24.3-1"
           "haskell-web-routes-th=0.22.1-9"
-          "haskell-xss-sanitize=0.3.4.1-1"
+          "haskell-xss-sanitize=0.3.4.1-2"
 -         "ssl")
-+         "markdown"
-+         "openssl")
++         "markdown")
  options=('strip' 'staticlibs')
  source=("http://hackage.haskell.org/packages/archive/${_hkgname}/${pkgver}/${_hkgname}-${pkgver}.tar.gz"
          "cabal.patch")
