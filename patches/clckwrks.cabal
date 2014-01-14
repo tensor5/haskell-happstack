@@ -2,7 +2,7 @@ Index: haskell-happstack/clckwrks.cabal
 ===================================================================
 --- haskell-happstack.orig/clckwrks.cabal
 +++ haskell-happstack/clckwrks.cabal
-@@ -63,8 +63,6 @@ Library
+@@ -63,13 +63,11 @@ Library
                     Clckwrks.URL
                     Paths_clckwrks
    Extra-Libraries:   ssl
@@ -11,3 +11,9 @@ Index: haskell-happstack/clckwrks.cabal
  
    Build-depends:
       acid-state                   >= 0.12 && < 0.13,
+      aeson                        >= 0.5 && < 0.7,
+-     attoparsec                   == 0.10.*,
++     attoparsec                   >= 0.10 && < 0.12,
+      base                           < 5,
+      blaze-html                   >= 0.5 && < 0.7,
+      bytestring                   >= 0.9 && < 0.11,

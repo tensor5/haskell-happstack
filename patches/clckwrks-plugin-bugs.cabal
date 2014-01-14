@@ -1,0 +1,13 @@
+Index: haskell-happstack/clckwrks-plugin-bugs.cabal
+===================================================================
+--- haskell-happstack.orig/clckwrks-plugin-bugs.cabal
++++ haskell-happstack/clckwrks-plugin-bugs.cabal
+@@ -42,7 +42,7 @@ Library
+   Build-depends:
+     base                    < 5,
+     acid-state             >= 0.12 && < 0.13,
+-    attoparsec             == 0.10.*,
++    attoparsec             >= 0.10 && < 0.12,
+     clckwrks               >= 0.21 && < 0.22,
+     clckwrks-plugin-page   == 0.3.*,
+     containers             >= 0.4 && < 0.6,

@@ -11,15 +11,17 @@ Index: haskell-happstack/fb.cabal
      , transformers         >= 0.2     && < 0.4
      , transformers-base
      , monad-control
-@@ -73,7 +73,7 @@ library
+@@ -73,8 +73,8 @@ library
      , conduit              == 1.0.*
      , data-default
      , http-types
 -    , http-conduit         == 1.9.*
+-    , attoparsec           == 0.10.*
 +    , http-conduit         == 2.0.*
-     , attoparsec           == 0.10.*
++    , attoparsec           >= 0.10    && < 0.12
      , attoparsec-conduit   == 1.0.*
      , unordered-containers
+     , aeson                >= 0.5     && < 0.7
 @@ -83,7 +83,7 @@ library
      , time                 >= 1.2     && < 1.5
      , old-locale

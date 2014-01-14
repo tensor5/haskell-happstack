@@ -9,5 +9,5 @@ Index: haskell-happstack/haskell-clckwrks-plugin-page/PKGBUILD
 -makedepends=()
 +makedepends=("haskell-hsx2hs")
  depends=("ghc=7.6.3-1"
-          "haskell-acid-state=0.12.1-5"
-          "haskell-aeson=0.6.2.1-5"
+          "haskell-acid-state=0.12.1-6"
+          "haskell-aeson=0.6.2.1-6"

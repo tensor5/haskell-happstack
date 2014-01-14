@@ -1,0 +1,13 @@
+Index: haskell-happstack/clckwrks-plugin-media.cabal
+===================================================================
+--- haskell-happstack.orig/clckwrks-plugin-media.cabal
++++ haskell-happstack/clckwrks-plugin-media.cabal
+@@ -41,7 +41,7 @@ Library
+   Build-depends:
+     base                    < 5,
+     acid-state             >= 0.12 && < 0.13,
+-    attoparsec             == 0.10.*,
++    attoparsec             >= 0.10 && < 0.12,
+     blaze-html             >= 0.5 && < 0.7,
+     clckwrks               >= 0.21 && < 0.22,
+     containers             >= 0.4 && < 0.6,
