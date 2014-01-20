@@ -10,7 +10,6 @@ crypto-pubkey-types
 cryptohash-cryptoapi
 css-text
 email-validate
-exceptions
 failure
 feed
 filestore
@@ -104,14 +103,5 @@ http-client-conduit
 http-client-tls
 http-conduit
 authenticate
-fb
-happstack-authenticate
-clckwrks
-clckwrks-cli
-clckwrks-plugin-ircbot
-clckwrks-plugin-media
-clckwrks-theme-bootstrap
-clckwrks-plugin-page
-clckwrks-plugin-bugs
 pipes-zlib
 zlib-conduit
