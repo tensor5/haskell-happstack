@@ -1,0 +1,13 @@
+Index: haskell-happstack/haskell-lens/PKGBUILD
+===================================================================
+--- haskell-happstack.orig/haskell-lens/PKGBUILD
++++ haskell-happstack/haskell-lens/PKGBUILD
+@@ -10,7 +10,7 @@ pkgdesc="Lenses, Folds and Traversals"
+ url="http://github.com/ekmett/lens/"
+ license=("BSD3")
+ arch=('i686' 'x86_64')
+-makedepends=()
++makedepends=("haskell-cpphs")
+ depends=("ghc=7.6.3-1"
+          "haskell-aeson=0.7.0.0-1"
+          "haskell-bifunctors=4.1.1-4"

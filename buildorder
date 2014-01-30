@@ -23,6 +23,8 @@ magic
 mime-mail
 mime-types
 network-simple
+newtype
+constraints
 parseargs
 jmacro
 pem
