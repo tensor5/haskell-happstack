@@ -84,6 +84,7 @@ profunctors
 free
 pipes-group
 pipes-bytestring
+pipes-aeson
 pipes-binary
 lens
 url
