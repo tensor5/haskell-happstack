@@ -109,5 +109,7 @@ http-client-conduit
 http-client-tls
 http-conduit
 authenticate
+fb
+happstack-authenticate
 pipes-zlib
 zlib-conduit
