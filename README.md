@@ -10,7 +10,6 @@ it, the [haskell-core] repository must be enabled in `/etc/pacman.conf`:
 
     [haskell-core]
     Server = http://xsounds.org/~haskell/core/$arch
-    Server = http://www.kiwilight.com/haskell/core/$arch
     
     [haskell-happstack]
     Server = ftp://noaxiom.org/$repo/$arch
