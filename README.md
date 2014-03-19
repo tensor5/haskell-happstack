@@ -12,6 +12,7 @@ it, the [haskell-core] repository must be enabled in `/etc/pacman.conf`:
     Server = http://xsounds.org/~haskell/core/$arch
     
     [haskell-happstack]
+    Server = http://noaxiom.org/$repo/$arch
     Server = ftp://noaxiom.org/$repo/$arch
 
 Add and sign the PGP key:
