@@ -110,4 +110,3 @@ authenticate
 fb
 happstack-authenticate
 pipes-zlib
-zlib-conduit
