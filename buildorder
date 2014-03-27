@@ -99,6 +99,7 @@ x509-validation
 tls
 connection
 xml-conduit
+tagstream-conduit
 xss-sanitize
 gitit
 zlib-bindings
