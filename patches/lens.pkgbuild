@@ -10,4 +10,4 @@ Index: haskell-happstack/haskell-lens/PKGBUILD
 +makedepends=("haskell-cpphs")
  depends=("ghc=7.6.3-1"
           "haskell-aeson=0.7.0.1-1"
-          "haskell-bifunctors=4.1.1-5"
+          "haskell-bifunctors=4.1.1-6"
