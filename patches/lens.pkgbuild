@@ -8,6 +8,6 @@ Index: haskell-happstack/haskell-lens/PKGBUILD
  arch=('i686' 'x86_64')
 -makedepends=()
 +makedepends=("haskell-cpphs")
- depends=("ghc=7.6.3-1"
-          "haskell-aeson=0.7.0.1-1"
-          "haskell-bifunctors=4.1.1-6"
+ depends=("ghc=7.8.1-1"
+          "haskell-aeson=0.7.0.2-4"
+          "haskell-bifunctors=4.1.1-2"

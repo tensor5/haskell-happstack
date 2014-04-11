@@ -6,8 +6,8 @@ Index: haskell-happstack/haskell-magic/PKGBUILD
  license=("BSD3")
  arch=('i686' 'x86_64')
  makedepends=()
--depends=("ghc=7.6.3-1" "magic")
-+depends=("ghc=7.6.3-1" "file")
- options=('strip')
+-depends=("ghc=7.8.1-1" "magic")
++depends=("ghc=7.8.1-1" "file")
+ options=('strip' 'staticlibs')
  source=("http://hackage.haskell.org/packages/archive/${_hkgname}/${pkgver}/${_hkgname}-${pkgver}.tar.gz")
  install="${pkgname}.install"

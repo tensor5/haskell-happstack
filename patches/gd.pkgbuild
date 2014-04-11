@@ -5,7 +5,7 @@ Index: haskell-happstack/haskell-gd/PKGBUILD
 @@ -12,14 +12,7 @@ license=("BSD3")
  arch=('i686' 'x86_64')
  makedepends=()
- depends=("ghc=7.6.3-1"
+ depends=("ghc=7.8.1-1"
 -         "gd"
 -         "png"
 -         "z"
@@ -15,6 +15,6 @@ Index: haskell-happstack/haskell-gd/PKGBUILD
 -         "freetype"
 -         "expat")
 +         "gd")
- options=('strip')
+ options=('strip' 'staticlibs')
  source=("http://hackage.haskell.org/packages/archive/${_hkgname}/${pkgver}/${_hkgname}-${pkgver}.tar.gz")
  install="${pkgname}.install"

@@ -145,7 +145,7 @@ EOF
         -M /usr/share/devtools/makepkg-${arch}.conf ${CHROOT_ROOTDIR} \
         base base-devel curl \
         sudo \
-        haskell-haddock ghc
+        ghc
 
     # fix up the local repo
     sudo mkdir ${CHROOT_ROOTDIR}/repo
