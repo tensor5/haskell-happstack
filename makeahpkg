@@ -103,6 +103,9 @@ HoldPkg = pacman libc
 Architecture = auto
 SigLevel = Never
 
+#[repo]
+#Server = file:///repo
+
 [haskell-core]
 Server = http://xsounds.org/~haskell/core/\$arch
 
