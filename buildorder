@@ -50,12 +50,14 @@ cprng-aes
 crypto-numbers
 crypto-pubkey
 sendfile
+shakespeare
 skein
 clientsession
 socks
 threads
 happstack-server
 happstack-clientsession
+happstack-hamlet
 happstack-hstringtemplate
 happstack-lite
 happstack-server-tls
