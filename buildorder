@@ -54,6 +54,8 @@ shakespeare
 skein
 clientsession
 socks
+syb-with-class
+ixset
 threads
 happstack-server
 happstack-clientsession
