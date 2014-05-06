@@ -18,7 +18,6 @@ ircbot
 magic
 mime-mail
 mime-types
-network-simple
 newtype
 parseargs
 pem
@@ -31,7 +30,6 @@ pipes-group
 pipes-bytestring
 pipes-aeson
 pipes-binary
-pipes-safe
 publicsuffixlist
 http-client
 pwstore-purehaskell
