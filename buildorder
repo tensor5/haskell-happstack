@@ -1,6 +1,7 @@
 HsOpenSSL
 MonadRandom
 asn1-data
+cabal-test-quickcheck
 certificate
 cryptohash-cryptoapi
 css-text
