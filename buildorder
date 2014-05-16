@@ -38,6 +38,8 @@ lens
 reform
 reform-blaze
 safecopy
+acid-state
+acid-state-tls
 sendfile
 shakespeare
 skein
