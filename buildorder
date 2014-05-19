@@ -21,6 +21,7 @@ irc
 ircbot
 magic
 mime-mail
+network-simple
 newtype
 parseargs
 pipes
@@ -31,6 +32,8 @@ pipes-group
 pipes-bytestring
 pipes-aeson
 pipes-binary
+pipes-safe
+pipes-network
 pwstore-purehaskell
 recaptcha
 reflection
