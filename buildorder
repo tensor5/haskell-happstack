@@ -11,6 +11,7 @@ email-validate
 fb
 feed
 flaccuraterip
+foldl
 gd
 groom
 harp
@@ -26,6 +27,8 @@ newtype
 parseargs
 pipes
 pipes-concurrency
+pipes-extras
+pipes-http
 pipes-parse
 pipes-attoparsec
 pipes-group
