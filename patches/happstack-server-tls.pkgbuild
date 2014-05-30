@@ -3,12 +3,12 @@ Index: haskell-happstack/haskell-happstack-server-tls/PKGBUILD
 --- haskell-happstack.orig/haskell-happstack-server-tls/PKGBUILD
 +++ haskell-happstack/haskell-happstack-server-tls/PKGBUILD
 @@ -17,8 +17,7 @@ depends=("ghc=7.8.2-1"
-          "haskell-happstack-server=7.3.6-2"
-          "haskell-hslogger=1.2.4-2"
-          "haskell-network=2.4.2.2-61"
--         "haskell-sendfile=0.7.9-10"
+          "haskell-happstack-server=7.3.6-3"
+          "haskell-hslogger=1.2.4-3"
+          "haskell-network=2.5.0.0-1"
+-         "haskell-sendfile=0.7.9-11"
 -         "ssl")
-+         "haskell-sendfile=0.7.9-10")
++         "haskell-sendfile=0.7.9-11")
  options=('strip' 'staticlibs')
  source=("http://hackage.haskell.org/packages/archive/${_hkgname}/${pkgver}/${_hkgname}-${pkgver}.tar.gz"
          "cabal.patch")
