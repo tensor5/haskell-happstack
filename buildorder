@@ -1,9 +1,7 @@
 haskell-src-meta
 hsx2hs
 HsOpenSSL
-asn1-data
 cabal-test-quickcheck
-certificate
 cryptohash-cryptoapi
 css-text
 data-lens-light
