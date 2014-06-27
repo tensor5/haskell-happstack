@@ -88,3 +88,9 @@ fay-text
 fay-dom
 fay-jquery
 xss-sanitize
+clckwrks
+clckwrks-cli
+clckwrks-plugin-ircbot
+clckwrks-plugin-media
+clckwrks-plugin-page
+clckwrks-plugin-bugs
