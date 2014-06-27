@@ -1,3 +1,5 @@
+haskell-src-meta
+hsx2hs
 HsOpenSSL
 asn1-data
 cabal-test-quickcheck
@@ -21,8 +23,8 @@ ircbot
 magic
 mime-mail
 network-simple
-newtype
 parseargs
+jmacro
 pipes
 pipes-concurrency
 pipes-extras
@@ -41,6 +43,7 @@ reflection
 lens
 reform
 reform-blaze
+reform-hsp
 safecopy
 acid-state
 acid-state-tls
@@ -58,6 +61,8 @@ threads
 happstack-server
 happstack-clientsession
 happstack-hamlet
+happstack-hsp
+hsx-jmacro
 happstack-hstringtemplate
 happstack-lite
 happstack-server-tls
@@ -69,7 +74,9 @@ url
 web-plugins
 web-routes
 web-routes-happstack
+web-routes-hsp
 web-routes-th
+happstack-foundation
 wl-pprint
 language-ecmascript
 fay
