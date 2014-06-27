@@ -1,0 +1,13 @@
+Index: haskell-happstack/tagstream-conduit.cabal
+===================================================================
+--- haskell-happstack.orig/tagstream-conduit.cabal
++++ haskell-happstack/tagstream-conduit.cabal
+@@ -43,8 +43,6 @@ Library
+                      , resourcet
+                      , attoparsec
+                      , blaze-builder
+-                     , blaze-builder-conduit >= 0.5 && < 1.2
+-                     , attoparsec-conduit >= 0.5
+                      , xml-conduit >= 1.1.0.0
+                      , data-default >= 0.5.0
+ 

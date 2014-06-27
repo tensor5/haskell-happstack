@@ -56,6 +56,8 @@ spoon
 syb-with-class
 ixset
 tagshare
+tagstream-conduit
+authenticate
 testing-feat
 threads
 happstack-server
@@ -74,6 +76,7 @@ url
 web-plugins
 web-routes
 web-routes-happstack
+happstack-authenticate
 web-routes-hsp
 web-routes-th
 happstack-foundation
