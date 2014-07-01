@@ -1,6 +1,8 @@
 haskell-src-meta
 hsx2hs
 HsOpenSSL
+MissingH
+ConfigFile
 cabal-test-quickcheck
 cryptohash-cryptoapi
 css-text
@@ -8,6 +10,7 @@ data-lens-light
 email-validate
 fb
 feed
+filestore
 flaccuraterip
 foldl
 gd
@@ -70,6 +73,7 @@ reform-happstack
 traverse-with-class
 type-eq
 haskell-names
+uri
 url
 web-plugins
 web-routes
@@ -92,3 +96,4 @@ clckwrks-plugin-ircbot
 clckwrks-plugin-media
 clckwrks-plugin-page
 clckwrks-plugin-bugs
+gitit
