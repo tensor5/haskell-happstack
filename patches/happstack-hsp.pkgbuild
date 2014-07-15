@@ -8,6 +8,6 @@ Index: haskell-happstack/haskell-happstack-hsp/PKGBUILD
  arch=('i686' 'x86_64')
 -makedepends=()
 +makedepends=("haskell-hsx2hs")
- depends=("ghc=7.8.2-1"
-          "haskell-happstack-server=7.3.7-1"
-          "haskell-harp=0.4-3"
+ depends=("ghc=7.8.3-1"
+          "haskell-happstack-server=7.3.7-2"
+          "haskell-harp=0.4-4"

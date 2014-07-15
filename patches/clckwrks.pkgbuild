@@ -8,21 +8,21 @@ Index: haskell-happstack/haskell-clckwrks/PKGBUILD
  arch=('i686' 'x86_64')
 -makedepends=()
 +makedepends=("haskell-hsx2hs")
- depends=("ghc=7.8.2-1"
-          "haskell-acid-state=0.12.2-6"
-          "haskell-aeson=0.7.0.6-6"
-@@ -21,6 +21,7 @@ depends=("ghc=7.8.2-1"
-          "haskell-happstack-hsp=7.3.1-2"
-          "haskell-happstack-server=7.3.7-1"
-          "haskell-happstack-server-tls=7.1.1-2"
+ depends=("ghc=7.8.3-1"
+          "haskell-acid-state=0.12.2-7"
+          "haskell-aeson=0.7.0.6-7"
+@@ -21,6 +21,7 @@ depends=("ghc=7.8.3-1"
+          "haskell-happstack-hsp=7.3.1-3"
+          "haskell-happstack-server=7.3.7-2"
+          "haskell-happstack-server-tls=7.1.1-3"
 +         "haskell-hscolour"
-          "haskell-hsp=0.10.0-6"
-          "haskell-hsx-jmacro=7.3.5-3"
-          "haskell-ixset=1.0.5-15"
-@@ -45,7 +46,7 @@ depends=("ghc=7.8.2-1"
-          "haskell-web-routes-hsp=0.24.4-1"
-          "haskell-web-routes-th=0.22.2-7"
-          "haskell-xss-sanitize=0.3.5.2-9"
+          "haskell-hsp=0.10.0-7"
+          "haskell-hsx-jmacro=7.3.5-4"
+          "haskell-ixset=1.0.5-16"
+@@ -45,7 +46,7 @@ depends=("ghc=7.8.3-1"
+          "haskell-web-routes-hsp=0.24.4-2"
+          "haskell-web-routes-th=0.22.2-8"
+          "haskell-xss-sanitize=0.3.5.2-10"
 -         "ssl")
 +         "markdown")
  options=('strip' 'staticlibs')

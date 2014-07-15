@@ -8,6 +8,6 @@ Index: haskell-happstack/haskell-clckwrks-plugin-page/PKGBUILD
  arch=('i686' 'x86_64')
 -makedepends=()
 +makedepends=("haskell-hsx2hs")
- depends=("ghc=7.8.2-1"
-          "haskell-acid-state=0.12.2-6"
-          "haskell-aeson=0.7.0.6-6"
+ depends=("ghc=7.8.3-1"
+          "haskell-acid-state=0.12.2-7"
+          "haskell-aeson=0.7.0.6-7"
