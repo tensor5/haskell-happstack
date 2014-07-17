@@ -10,4 +10,4 @@ Index: haskell-happstack/haskell-clckwrks-plugin-page/PKGBUILD
 +makedepends=("haskell-hsx2hs")
  depends=("ghc=7.8.3-1"
           "haskell-acid-state=0.12.2-7"
-          "haskell-aeson=0.7.0.6-7"
+          "haskell-aeson=0.7.0.6-8"
