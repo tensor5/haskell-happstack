@@ -1,6 +1,6 @@
 ["Cabal",{"GhcPkg":{"version":{"versionTags":[],"versionBranch":[1,18,1,3]}}}]
 ["array",{"GhcPkg":{"version":{"versionTags":[],"versionBranch":[0,5,0,0]}}}]
-["base",{"GhcPkg":{"version":{"versionTags":[],"versionBranch":[4,7,0,0]}}}]
+["base",{"GhcPkg":{"version":{"versionTags":[],"versionBranch":[4,7,0,1]}}}]
 ["binary",{"GhcPkg":{"version":{"versionTags":[],"versionBranch":[0,7,1,0]}}}]
 ["bytestring",{"GhcPkg":{"version":{"versionTags":[],"versionBranch":[0,10,4,0]}}}]
 ["containers",{"GhcPkg":{"version":{"versionTags":[],"versionBranch":[0,5,5,1]}}}]
