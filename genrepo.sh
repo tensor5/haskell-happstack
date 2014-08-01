@@ -30,5 +30,13 @@ for arch in i686 x86_64; do
     done
     IFS=${ifs_bkp}
     (cd "repo/${arch}"
-     repo-add ${add_args} haskell-happstack.db.tar.xz ${new_pkgs})
+     repo-add ${add_args} haskell-happstack.db.tar.xz ${new_pkgs}
+     for f in *-${arch}.pkg.tar.xz; do
+         if ! xzgrep ${f%-${arch}.pkg.tar.xz}/ haskell-happstack.db.tar.xz 1> /dev/null
+         then
+             echo "Removing ${f}..."
+             rm ${f}{,.sig}
+         fi
+     done
+    )
 done
