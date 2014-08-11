@@ -10,4 +10,4 @@ Index: haskell-happstack/haskell-clckwrks-plugin-ircbot/PKGBUILD
 +makedepends=("haskell-hsx2hs")
  depends=("ghc=7.8.3-1"
           "haskell-acid-state=0.12.2-7"
-          "haskell-attoparsec=0.11.3.4-4"
+          "haskell-attoparsec=0.11.3.4-5"
