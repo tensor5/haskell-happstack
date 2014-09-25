@@ -1,8 +1,7 @@
-haskell-src-meta
-hsx2hs
 HsOpenSSL
 MissingH
 ConfigFile
+bytestring-show
 cabal-test-quickcheck
 cryptohash-cryptoapi
 css-text
@@ -16,6 +15,7 @@ foldl
 gd
 groom
 harp
+hoauth2
 hse-cpp
 haskell-packages
 hsp
@@ -25,7 +25,6 @@ magic
 mime-mail
 network-simple
 parseargs
-jmacro
 pipes
 pipes-concurrency
 pipes-extras
@@ -64,8 +63,6 @@ threads
 happstack-server
 happstack-clientsession
 happstack-hamlet
-happstack-hsp
-hsx-jmacro
 happstack-hstringtemplate
 happstack-lite
 happstack-server-tls
@@ -81,19 +78,7 @@ web-routes-happstack
 happstack-authenticate
 web-routes-hsp
 web-routes-th
-happstack-foundation
 wl-pprint
 language-ecmascript
-fay
-fay-base
-fay-text
-fay-dom
-fay-jquery
 xss-sanitize
-clckwrks
-clckwrks-cli
-clckwrks-plugin-ircbot
-clckwrks-plugin-media
-clckwrks-plugin-page
-clckwrks-plugin-bugs
 gitit
