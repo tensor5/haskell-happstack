@@ -15,6 +15,7 @@ foldl
 gd
 groom
 harp
+haskell-src-meta
 hoauth2
 hse-cpp
 haskell-packages
@@ -25,6 +26,7 @@ magic
 mime-mail
 network-simple
 parseargs
+jmacro
 pipes
 pipes-concurrency
 pipes-extras
