@@ -82,5 +82,10 @@ web-routes-hsp
 web-routes-th
 wl-pprint
 language-ecmascript
+fay
+fay-base
+fay-text
+fay-dom
+fay-jquery
 xss-sanitize
 gitit
