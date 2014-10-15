@@ -45,7 +45,6 @@ reflection
 lens
 reform
 reform-blaze
-reform-hsp
 safecopy
 acid-state
 acid-state-tls
