@@ -2,7 +2,7 @@
 
 repo_host="root@noaxiom.org"
 repo_name="haskell-happstack"
-repo_path="/srv/ftp/${repo_name}"
+repo_path="/srv/noaxiom/${repo_name}"
 
 rsync_arguments="-rtlvH --delete-after --delay-updates --safe-links --max-delete=1000"
 

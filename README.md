@@ -13,7 +13,6 @@ it, the [haskell-core] repository must be enabled in `/etc/pacman.conf`:
     
     [haskell-happstack]
     Server = http://noaxiom.org/$repo/$arch
-    Server = ftp://noaxiom.org/$repo/$arch
 
 Add and sign the PGP key:
 
