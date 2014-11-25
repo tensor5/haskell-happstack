@@ -83,8 +83,8 @@ wl-pprint
 language-ecmascript
 fay
 fay-base
-fay-text
 fay-dom
+fay-text
 fay-jquery
 xss-sanitize
 gitit
