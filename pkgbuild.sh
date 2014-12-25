@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-ghc_version="7.8.3"
+ghc_version="7.8.4"
 
 ghc_release="1"
 
