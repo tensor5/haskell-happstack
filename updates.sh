@@ -26,12 +26,17 @@ done
 
 IFS=$'\n'
 
+pacman_cache=$(mktemp)
+trap "rm ${pacman_cache}" EXIT
+pacman -Sl haskell-core | tr '[:upper:]' '[:lower:]' >$pacman_cache
+
 for p in $(cblrepo list -d --no-repo)
 do
     name=$(echo $p | awk '{print $1;}')
     ver=$(echo $p | awk '{print $2;}')
     pkg_name=haskell-$(echo ${name} | tr '[:upper:]' '[:lower:]')
-    repo_ver_rel=$(pacman -Si "${pkg_name}" | awk '/Version/ {print $3;}' | head -n 1)
+    repo_ver_rel=$(awk "\$2 == \"${pkg_name}\" {print \$3;}" $pacman_cache | head -n 1)
+    [[ $repo_ver_rel ]] || echo error: ${pkg_name} not found in repository
     if [ "${ver}" != "${repo_ver_rel}" ]
     then
         case ${mode} in
