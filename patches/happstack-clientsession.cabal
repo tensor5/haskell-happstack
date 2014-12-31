@@ -1,0 +1,13 @@
+Index: haskell-happstack/happstack-clientsession.cabal
+===================================================================
+--- haskell-happstack.orig/happstack-clientsession.cabal
++++ haskell-happstack/happstack-clientsession.cabal
+@@ -27,7 +27,7 @@ Library
+     cereal            >= 0.3 && < 0.5,
+     clientsession     >= 0.8 && < 0.10,
+     happstack-server  >= 7.0 && < 7.4,
+-    monad-control     == 0.3.*,
++    monad-control     == 1.0.*,
+     mtl               >= 2.0 && < 2.3,
+     safecopy          >= 0.7 && < 0.9,
+     transformers-base == 0.4.*

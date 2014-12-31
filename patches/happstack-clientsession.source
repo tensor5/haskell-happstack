@@ -1,0 +1,61 @@
+Index: haskell-happstack/haskell-happstack-clientsession/src/happstack-clientsession-7.2.7/src/Happstack/Server/ClientSession.hs
+===================================================================
+--- haskell-happstack.orig/haskell-happstack-clientsession/src/happstack-clientsession-7.2.7/src/Happstack/Server/ClientSession.hs
++++ haskell-happstack/haskell-happstack-clientsession/src/happstack-clientsession-7.2.7/src/Happstack/Server/ClientSession.hs
+@@ -175,6 +175,7 @@ import Control.Monad.Trans   (MonadIO(li
+ import Control.Monad.Trans.Control               ( MonadTransControl(..)
+                                                  , MonadBaseControl(..)
+                                                  , ComposeSt, defaultLiftBaseWith, defaultRestoreM
++                                                 , defaultLiftWith, defaultRestoreT
+                                                  )
+ import Data.ByteString.Char8 (pack, unpack)
+ import Data.Monoid           (Monoid(..))
+@@ -282,16 +283,14 @@ instance (Monad m, ClientSession session
+     put a = SessionStateT $ put (Modified a)
+ 
+ instance MonadTransControl (SessionStateT s) where
+-    newtype StT (SessionStateT s) a = StSessionStateT { unStSessionStateT :: StT (StateT (SessionStatus s)) a }
+-    liftWith f =
+-        SessionStateT $ liftWith $ \runStateT' ->
+-            f $ liftM StSessionStateT . runStateT' . unSessionStateT
+-    restoreT = SessionStateT . restoreT . liftM unStSessionStateT
++    type StT (SessionStateT s) a = StT (StateT (SessionStatus s)) a
++    liftWith = defaultLiftWith SessionStateT unSessionStateT
++    restoreT = defaultRestoreT SessionStateT
+ 
+ instance MonadBaseControl b m => MonadBaseControl b (SessionStateT s m) where
+-    newtype StM (SessionStateT s m) a = StMSessionStateT { unStMSessionStateT :: ComposeSt (SessionStateT s) m a }
+-    liftBaseWith = defaultLiftBaseWith StMSessionStateT
+-    restoreM     = defaultRestoreM     unStMSessionStateT
++    type StM (SessionStateT s m) a = ComposeSt (SessionStateT s) m a
++    liftBaseWith = defaultLiftBaseWith
++    restoreM     = defaultRestoreM
+ 
+ -- | run 'SessionStateT' and get the result, plus the final @SessionStatus sessionData@
+ runSessionStateT :: SessionStateT sessionData m a -> SessionStatus sessionData -> m (a, SessionStatus sessionData)
+@@ -352,19 +351,19 @@ instance MonadTrans (ClientSessionT sess
+     lift = ClientSessionT . lift . lift
+ 
+ instance MonadTransControl (ClientSessionT s) where
+-    newtype StT (ClientSessionT s) a = StClientSessionT { unStClientSessionT :: StT (SessionStateT s) (StT (ReaderT SessionConf) a) }
++    type StT (ClientSessionT s) a = StT (SessionStateT s) (StT (ReaderT SessionConf) a)
+ 
+     liftWith f =
+         ClientSessionT $ liftWith $ \runSessionStateT' ->
+             liftWith $ \runReaderT' ->
+-            f $ liftM StClientSessionT . runReaderT' . runSessionStateT' . unClientSessionT
++            f $ runReaderT' . runSessionStateT' . unClientSessionT
+ 
+-    restoreT = ClientSessionT . restoreT . restoreT . liftM unStClientSessionT
++    restoreT = ClientSessionT . restoreT . restoreT
+ 
+ instance MonadBaseControl b m => MonadBaseControl b (ClientSessionT s m) where
+-    newtype StM (ClientSessionT s m) a = StMClientSessionT { unStMClientSessionT :: ComposeSt (ClientSessionT s) m a }
+-    liftBaseWith = defaultLiftBaseWith StMClientSessionT
+-    restoreM     = defaultRestoreM     unStMClientSessionT
++    type StM (ClientSessionT s m) a = ComposeSt (ClientSessionT s) m a
++    liftBaseWith = defaultLiftBaseWith
++    restoreM     = defaultRestoreM
+ 
+ -- | transform the inner monad, but leave the session data alone.
+ mapClientSessionT :: (forall s. m (a, s) -> n (b, s))
