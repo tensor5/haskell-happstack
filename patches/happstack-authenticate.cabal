@@ -1,0 +1,13 @@
+Index: haskell-happstack/happstack-authenticate.cabal
+===================================================================
+--- haskell-happstack.orig/happstack-authenticate.cabal
++++ haskell-happstack/happstack-authenticate.cabal
+@@ -38,7 +38,7 @@ Library
+                        bytestring                   >= 0.9 && < 0.11,
+                        containers                   >= 0.4 && < 0.6,
+                        ixset                        >= 1.0 && < 1.1,
+-                       happstack-server             >= 6.0 && < 7.4,
++                       happstack-server             >= 6.0 && < 7.5,
+                        http-conduit                 >= 1.4 && < 2.2,
+                        http-types                   >= 0.6 && < 0.9,
+                        fb                           >= 0.13 && < 1.1,
