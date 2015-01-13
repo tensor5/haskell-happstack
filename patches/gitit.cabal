@@ -11,7 +11,12 @@ Index: haskell-happstack/gitit.cabal
                       base64-bytestring >= 0.1 && < 1.1,
                       xml >= 1.3.5,
                       hslogger >= 1 && < 1.3,
-@@ -181,7 +181,7 @@ Executable           gitit
+@@ -177,11 +177,11 @@ Executable           gitit
+                      xss-sanitize >= 0.3 && < 0.4,
+                      tagsoup >= 0.13 && < 0.14,
+                      blaze-html >= 0.4 && < 0.8,
+-                     json >= 0.4 && < 0.8,
++                     json >= 0.4 && < 1.0,
                       uri >= 0.1 && < 0.2,
                       split,
                       hoauth2 >= 0.4.2 && < 0.5,
