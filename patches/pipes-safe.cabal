@@ -1,0 +1,13 @@
+Index: haskell-happstack/pipes-safe.cabal
+===================================================================
+--- haskell-happstack.orig/pipes-safe.cabal
++++ haskell-happstack/pipes-safe.cabal
+@@ -37,7 +37,7 @@ Library
+     Build-Depends:
+         base         >= 4       && < 5  ,
+         containers   >= 0.3.0.0 && < 0.6,
+-        exceptions   >= 0.6     && < 0.8,
++        exceptions   >= 0.6     && < 0.9,
+         transformers >= 0.2.0.0 && < 0.5,
+         pipes        >= 4.0.0   && < 4.2
+     Exposed-Modules:
