@@ -24,6 +24,7 @@ irc
 ircbot
 magic
 mime-mail
+mtl-compat
 network-simple
 parseargs
 jmacro
