@@ -5,7 +5,7 @@ Index: haskell-happstack/haskell-gd/PKGBUILD
 @@ -12,14 +12,7 @@ license=("BSD3")
  arch=('i686' 'x86_64')
  makedepends=()
- depends=("ghc=7.8.4-1"
+ depends=("ghc=7.10.1-1"
 -         "gd"
 -         "png"
 -         "z"

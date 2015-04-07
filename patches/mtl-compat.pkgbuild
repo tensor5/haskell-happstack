@@ -1,0 +1,13 @@
+Index: haskell-happstack/haskell-mtl-compat/PKGBUILD
+===================================================================
+--- haskell-happstack.orig/haskell-mtl-compat/PKGBUILD
++++ haskell-happstack/haskell-mtl-compat/PKGBUILD
+@@ -35,7 +35,7 @@ build() {
+         --libsubdir=\$compiler/site-local/\$pkgid \
+             -f-two-point-two -f-two-point-one
+     runhaskell Setup build
+-    runhaskell Setup haddock --hoogle --html
++    # runhaskell Setup haddock --hoogle --html
+     runhaskell Setup register --gen-script
+     runhaskell Setup unregister --gen-script
+     sed -i -r -e "s|ghc-pkg.*unregister[^ ]* |&'--force' |" unregister.sh
