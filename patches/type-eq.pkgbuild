@@ -2,7 +2,7 @@ Index: haskell-happstack/haskell-type-eq/PKGBUILD
 ===================================================================
 --- haskell-happstack.orig/haskell-type-eq/PKGBUILD
 +++ haskell-happstack/haskell-type-eq/PKGBUILD
-@@ -10,7 +10,7 @@ pkgdesc="Type equality evidence you can
+@@ -12,7 +12,7 @@ pkgdesc="Type equality evidence you can
  url="http://github.com/glaebhoerl/type-eq"
  license=("BSD3")
  arch=('i686' 'x86_64')
@@ -10,4 +10,4 @@ Index: haskell-happstack/haskell-type-eq/PKGBUILD
 +makedepends=("haskell-cpphs")
  depends=("ghc=7.10.1-1")
  options=('strip' 'staticlibs')
- source=("http://hackage.haskell.org/packages/archive/${_hkgname}/${pkgver}/${_hkgname}-${pkgver}.tar.gz")
+ source=("http://hackage.haskell.org/packages/archive/${_hkgname}/${_ver}/${_hkgname}-${_ver}.tar.gz"

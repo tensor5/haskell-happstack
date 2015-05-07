@@ -2,7 +2,7 @@ Index: haskell-happstack/haskell-mtl-compat/PKGBUILD
 ===================================================================
 --- haskell-happstack.orig/haskell-mtl-compat/PKGBUILD
 +++ haskell-happstack/haskell-mtl-compat/PKGBUILD
-@@ -35,7 +35,7 @@ build() {
+@@ -39,7 +39,7 @@ build() {
          --libsubdir=\$compiler/site-local/\$pkgid \
              -f-two-point-two -f-two-point-one
      runhaskell Setup build

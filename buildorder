@@ -1,7 +1,6 @@
 HsOpenSSL
 MissingH
 ConfigFile
-bytestring-show
 cabal-test-quickcheck
 cryptohash-cryptoapi
 css-text
@@ -11,11 +10,9 @@ filestore
 flaccuraterip
 foldl
 gd
-groom
 harp
 haskell-src-meta
 hoauth2
-hse-cpp
 hsp
 irc
 magic
