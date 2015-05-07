@@ -107,7 +107,7 @@ if [ ! -d ${CHROOT_ROOTDIR} ]; then
 [options]
 HoldPkg = pacman libc
 Architecture = auto
-SigLevel = Never
+SigLevel = Optional
 
 #[repo]
 #Server = file:///repo
