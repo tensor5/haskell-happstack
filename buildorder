@@ -6,6 +6,7 @@ cryptohash-cryptoapi
 css-text
 data-lens-light
 email-validate
+feed
 filestore
 flaccuraterip
 foldl
@@ -76,3 +77,4 @@ fay-dom
 fay-text
 fay-jquery
 xss-sanitize
+gitit
