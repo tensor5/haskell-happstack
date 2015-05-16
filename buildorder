@@ -16,6 +16,7 @@ harp
 haskell-src-meta
 hoauth2
 hsp
+hsx2hs
 irc
 magic
 mime-mail
@@ -40,6 +41,7 @@ reflection
 lens
 reform
 reform-blaze
+reform-hsp
 safecopy
 acid-state
 acid-state-tls
@@ -57,6 +59,7 @@ threads
 happstack-server
 happstack-clientsession
 happstack-hamlet
+happstack-hsp
 happstack-hstringtemplate
 happstack-lite
 happstack-server-tls
@@ -70,6 +73,7 @@ web-routes
 web-routes-happstack
 web-routes-hsp
 web-routes-th
+happstack-foundation
 wl-pprint
 language-ecmascript
 fay
