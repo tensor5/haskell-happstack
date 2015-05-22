@@ -1,0 +1,13 @@
+Index: haskell-happstack/happstack-authenticate.cabal
+===================================================================
+--- haskell-happstack.orig/happstack-authenticate.cabal
++++ haskell-happstack/happstack-authenticate.cabal
+@@ -65,7 +65,7 @@ Library
+                        safecopy                     >= 0.8  && < 0.9,
+                        mime-mail                    >= 0.4  && < 0.5,
+                        mtl                          >= 2.0  && < 2.3,
+-                       lens                         >= 4.2  && < 4.10,
++                       lens                         >= 4.2  && < 4.12,
+                        pwstore-purehaskell          == 2.1.*,
+                        text                         >= 0.11 && < 1.3,
+                        time                         >= 1.2  && < 1.6,

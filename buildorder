@@ -1,6 +1,7 @@
 HsOpenSSL
 MissingH
 ConfigFile
+boomerang
 cabal-test-quickcheck
 cryptohash-cryptoapi
 css-text
@@ -18,11 +19,13 @@ hoauth2
 hsp
 hsx2hs
 irc
+jwt
 magic
 mime-mail
 mtl-compat
 network-simple
 parseargs
+jmacro
 pipes
 pipes-concurrency
 pipes-extras
@@ -45,6 +48,7 @@ reform-hsp
 safecopy
 acid-state
 acid-state-tls
+ixset-typed
 sendfile
 shakespeare
 skein
@@ -60,7 +64,9 @@ happstack-server
 happstack-clientsession
 happstack-hamlet
 happstack-hsp
+hsx-jmacro
 happstack-hstringtemplate
+happstack-jmacro
 happstack-lite
 happstack-server-tls
 reform-happstack
@@ -70,9 +76,11 @@ uri
 url
 web-plugins
 web-routes
+web-routes-boomerang
 web-routes-happstack
 web-routes-hsp
 web-routes-th
+happstack-authenticate
 happstack-foundation
 wl-pprint
 language-ecmascript
