@@ -90,7 +90,6 @@
 ["split",{"DistroPkg":{"dpXrev":1,"dpRelease":1,"dpVersion":{"versionTags":[],"versionBranch":[0,2,2]}}}]
 ["stm",{"DistroPkg":{"dpXrev":0,"dpRelease":76,"dpVersion":{"versionTags":[],"versionBranch":[2,4,4]}}}]
 ["syb",{"DistroPkg":{"dpXrev":0,"dpRelease":76,"dpVersion":{"versionTags":[],"versionBranch":[0,4,4]}}}]
-["system-fileio",{"DistroPkg":{"dpXrev":0,"dpRelease":2,"dpVersion":{"versionTags":[],"versionBranch":[0,3,16,3]}}}]
 ["system-filepath",{"DistroPkg":{"dpXrev":0,"dpRelease":2,"dpVersion":{"versionTags":[],"versionBranch":[0,4,13,4]}}}]
 ["tagged",{"DistroPkg":{"dpXrev":0,"dpRelease":1,"dpVersion":{"versionTags":[],"versionBranch":[0,8,0,1]}}}]
 ["tagsoup",{"DistroPkg":{"dpXrev":0,"dpRelease":78,"dpVersion":{"versionTags":[],"versionBranch":[0,13,3]}}}]
