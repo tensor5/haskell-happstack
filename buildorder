@@ -1,6 +1,5 @@
-HsOpenSSL
-MissingH
 ConfigFile
+HsOpenSSL
 boomerang
 cabal-test-quickcheck
 cryptohash-cryptoapi
