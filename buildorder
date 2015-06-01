@@ -3,7 +3,6 @@ HsOpenSSL
 boomerang
 cabal-test-quickcheck
 cryptohash-cryptoapi
-css-text
 data-lens-light
 email-validate
 fb
@@ -89,4 +88,3 @@ fay-dom
 fay-text
 fay-jquery
 xss-sanitize
-gitit
