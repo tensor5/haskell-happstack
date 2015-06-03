@@ -1,0 +1,11 @@
+Index: haskell-happstack/happstack-hsp.cabal
+===================================================================
+--- haskell-happstack.orig/happstack-hsp.cabal
++++ haskell-happstack/happstack-hsp.cabal
+@@ -32,5 +32,5 @@ Library
+                        hsx2hs           >= 0.13.0 && < 0.14,
+                        mtl              >= 1.1 && < 2.3,
+                        utf8-string      >= 0.3 && < 1.1,
+-                       syb              >= 0.3 && < 0.5,
++                       syb              >= 0.3 && < 0.6,
+                        text             >= 0.10 && < 1.3
