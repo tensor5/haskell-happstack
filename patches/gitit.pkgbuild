@@ -5,7 +5,7 @@ Index: haskell-happstack/haskell-gitit/PKGBUILD
 @@ -52,7 +52,12 @@ depends=("ghc=7.10.1-1"
           "haskell-uuid=1.3.10_0-7"
           "haskell-xml=1.3.14_0-80"
-          "haskell-xss-sanitize=0.3.5.5_0-7"
+          "haskell-xss-sanitize=0.3.5.5_0-8"
 -         "haskell-zlib=0.5.4.2_0-76")
 +         "haskell-zlib=0.5.4.2_0-76"
 +         "mime-types")
