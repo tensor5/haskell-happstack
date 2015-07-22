@@ -15,4 +15,13 @@ Index: haskell-happstack/haskell-gitit/PKGBUILD
 +            'postfix: notification emails support')
  options=('strip' 'staticlibs')
  source=("http://hackage.haskell.org/packages/archive/${_hkgname}/${_ver}/${_hkgname}-${_ver}.tar.gz"
-         "original.cabal")
+         "original.cabal"
+@@ -95,4 +100,8 @@ package() {
+     runhaskell Setup copy --destdir="${pkgdir}"
+     install -D -m644 "${_licensefile}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+     rm -f "${pkgdir}/usr/share/doc/${pkgname}/${_licensefile}"
++
++    install -d -m755 "${pkgdir}/etc/gitit"
++    install -d -m755 "${pkgdir}/usr/lib/systemd/system"
++    install    -m644 "${srcdir}/${_hkgname}-${_ver}/systemd/gitit@.service" "${pkgdir}/usr/lib/systemd/system"
+ }

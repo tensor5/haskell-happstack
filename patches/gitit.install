@@ -1,0 +1,34 @@
+Index: haskell-happstack/haskell-gitit/haskell-gitit.install
+===================================================================
+--- haskell-happstack.orig/haskell-gitit/haskell-gitit.install
++++ haskell-happstack/haskell-gitit/haskell-gitit.install
+@@ -6,6 +6,11 @@ HS_DIR=usr/share/haskell/${pkgname}
+ post_install() {
+     ${HS_DIR}/register.sh --verbose=0
+     /usr/share/doc/ghc/html/libraries/arch-gen-contents-index
++
++    getent group gitit >/dev/null 2>&1 || groupadd -r gitit
++    getent passwd gitit >/dev/null 2>&1 || useradd -c "Gitit wiki" -d /srv/gitit -g gitit -m -r -s /usr/bin/nologin gitit
++
++    setcap cap_net_bind_service=ep usr/bin/gitit 2>/dev/null
+ }
+ 
+ pre_upgrade() {
+@@ -15,6 +20,8 @@ pre_upgrade() {
+ post_upgrade() {
+     ${HS_DIR}/register.sh --verbose=0
+     /usr/share/doc/ghc/html/libraries/arch-gen-contents-index
++
++    post_install "$1"
+ }
+ 
+ pre_remove() {
+@@ -23,4 +30,8 @@ pre_remove() {
+ 
+ post_remove() {
+     /usr/share/doc/ghc/html/libraries/arch-gen-contents-index
++
++    rmdir --ignore-fail-on-non-empty srv/gitit
++    userdel gitit 2>/dev/null
++    groupdel gitit 2>/dev/null
+ }

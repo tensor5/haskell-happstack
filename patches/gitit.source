@@ -1,0 +1,17 @@
+Index: haskell-happstack/haskell-gitit/src/gitit-0.11/systemd/gitit@.service
+===================================================================
+--- /dev/null
++++ haskell-happstack/haskell-gitit/src/gitit-0.11/systemd/gitit@.service
+@@ -0,0 +1,12 @@
++[Unit]
++Description=Gitit wiki
++After=network.target
++
++[Service]
++ExecStart=/usr/bin/gitit -f /etc/gitit/%I.conf
++WorkingDirectory=/srv/gitit/%I
++User=gitit
++Group=gitit
++
++[Install]
++WantedBy=multi-user.target
