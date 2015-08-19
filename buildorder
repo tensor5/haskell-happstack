@@ -78,8 +78,9 @@ web-routes-boomerang
 web-routes-happstack
 web-routes-hsp
 web-routes-th
-happstack-authenticate
 happstack-foundation
+userid
+happstack-authenticate
 wl-pprint
 language-ecmascript
 fay
