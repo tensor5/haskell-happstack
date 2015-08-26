@@ -38,8 +38,6 @@ pipes-safe
 pipes-network
 pwstore-purehaskell
 recaptcha
-reflection
-lens
 reform
 reform-blaze
 reform-hsp
