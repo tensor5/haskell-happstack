@@ -24,7 +24,6 @@ mtl-compat
 network-simple
 parseargs
 jmacro
-pipes
 pipes-concurrency
 pipes-extras
 pipes-http
