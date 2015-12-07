@@ -4,7 +4,6 @@ boomerang
 cabal-test-quickcheck
 cryptohash-cryptoapi
 data-lens-light
-email-validate
 fb
 feed
 filestore
@@ -12,10 +11,8 @@ flaccuraterip
 foldl
 gd
 harp
-haskell-src-meta
 hoauth2
 hsp
-hsx2hs
 irc
 jwt
 magic
@@ -23,7 +20,6 @@ mime-mail
 mtl-compat
 network-simple
 parseargs
-jmacro
 pipes-concurrency
 pipes-extras
 pipes-http
@@ -39,10 +35,8 @@ pwstore-purehaskell
 recaptcha
 reform
 reform-blaze
-reform-hsp
 safecopy
 acid-state
-acid-state-tls
 ixset-typed
 sendfile
 shakespeare
@@ -58,10 +52,7 @@ threads
 happstack-server
 happstack-clientsession
 happstack-hamlet
-happstack-hsp
-hsx-jmacro
 happstack-hstringtemplate
-happstack-jmacro
 happstack-lite
 happstack-server-tls
 reform-happstack
@@ -75,9 +66,7 @@ web-routes-boomerang
 web-routes-happstack
 web-routes-hsp
 web-routes-th
-happstack-foundation
 userid
-happstack-authenticate
 wl-pprint
 language-ecmascript
 fay

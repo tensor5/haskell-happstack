@@ -5,7 +5,7 @@ Index: haskell-happstack/happstack-authenticate.cabal
 @@ -42,7 +42,7 @@ Library
  
    Build-depends:       base                         > 4     && < 5,
-                        acid-state                   >= 0.6  && < 0.14,
+                        acid-state                   >= 0.6  && < 0.15,
 -                       aeson                        >= 0.4  && < 0.10,
 +                       aeson                        >= 0.4  && < 0.11,
                         authenticate                 == 1.3.*,
