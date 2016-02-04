@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-add_args="--sign --verify --delta --files"
+add_args="--sign --verify --delta"
 
 for arch in i686 x86_64; do
     ifs_bkp=${IFS}
