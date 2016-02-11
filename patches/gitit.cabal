@@ -2,7 +2,7 @@ Index: haskell-happstack/gitit.cabal
 ===================================================================
 --- haskell-happstack.orig/gitit.cabal
 +++ haskell-happstack/gitit.cabal
-@@ -139,8 +139,8 @@ Library
+@@ -139,15 +139,15 @@ Library
                       directory,
                       mtl,
                       old-time,
@@ -13,6 +13,14 @@ Index: haskell-happstack/gitit.cabal
                       highlighting-kate >= 0.5.0.1 && < 0.7,
                       bytestring,
                       text,
+                      random,
+                      utf8-string >= 0.3 && < 1.1,
+                      SHA > 1 && < 1.7,
+-                     HTTP >= 4000.0 && < 4000.3,
++                     HTTP >= 4000.0 && < 4000.4,
+                      HStringTemplate >= 0.6 && < 0.9,
+                      old-locale >= 1,
+                      time >= 1.1 && < 1.6,
 @@ -167,10 +167,10 @@ Library
                       json >= 0.4 && < 0.10,
                       uri >= 0.1 && < 0.2,

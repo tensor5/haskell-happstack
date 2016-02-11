@@ -5,7 +5,6 @@ cabal-test-quickcheck
 cryptohash-cryptoapi
 data-lens-light
 fb
-feed
 filestore
 flaccuraterip
 foldl
