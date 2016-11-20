@@ -8,7 +8,7 @@ while getopts abh opt; do
     case $opt in
         a)
             prog='BEGIN    { ORS = "" }
-                  $3 != $4 { print " -d " $2 "," gensub("[-_]", ",", "g", $4) }
+                  $3 != $4 { print " -d " $2 "," gensub(/(\.x)|-/, ",", "g", $4) }
                   END      { print "\n" }'
             ;;
         b)
