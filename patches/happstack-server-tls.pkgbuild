@@ -3,7 +3,7 @@ Index: haskell-happstack/haskell-happstack-server-tls/PKGBUILD
 --- haskell-happstack.orig/haskell-happstack-server-tls/PKGBUILD
 +++ haskell-happstack/haskell-happstack-server-tls/PKGBUILD
 @@ -19,8 +19,7 @@ depends=("ghc=8.0.1-1"
-          "haskell-happstack-server=7.4.6.2.x0-2"
+          "haskell-happstack-server=7.4.6.2.x0-3"
           "haskell-hslogger=1.2.10.x0-1"
           "haskell-network=2.6.3.1.x0-251"
 -         "haskell-sendfile=0.7.9.x0-10"
