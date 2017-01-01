@@ -1,6 +1,8 @@
 HsOpenSSL
 boomerang
 cryptohash-cryptoapi
+cryptohash-md5
+cryptohash-sha1
 css-text
 data-lens-light
 feed
