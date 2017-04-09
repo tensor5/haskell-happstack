@@ -74,12 +74,6 @@ web-routes-hsp
 web-routes-th
 userid
 wl-pprint
-language-ecmascript
-fay
-fay-base
-fay-dom
-fay-text
-fay-jquery
 wl-pprint-text
 xss-sanitize
 gitit
