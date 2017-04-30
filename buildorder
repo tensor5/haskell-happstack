@@ -21,14 +21,11 @@ jwt
 magic
 mime-mail
 mtl-compat
-mwc-random
-foldl
 network-info
 network-simple
 parseargs
 pipes
 pipes-concurrency
-pipes-extras
 pipes-http
 pipes-parse
 pipes-attoparsec
@@ -66,6 +63,11 @@ type-eq
 uri
 url
 uuid
+vector-th-unbox
+math-functions
+mwc-random
+foldl
+pipes-extras
 web-plugins
 web-routes
 web-routes-boomerang
