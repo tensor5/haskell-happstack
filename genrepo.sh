@@ -2,7 +2,7 @@
 
 add_args="--sign --verify --delta"
 
-for arch in i686 x86_64; do
+for arch in x86_64; do
     ifs_bkp=${IFS}
     IFS=$'\n'
     new_pkgs=""
